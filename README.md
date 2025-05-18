@@ -1,23 +1,25 @@
-# Gym Management Solution
+# Kaalik 24/7 – Gym Website
 
-This is a comprehensive **Gym Management System** developed using **ASP.NET Core MVC** on **.NET 8**. The project streamlines gym operations by managing instructors, group classes, and more. It adheres to modern web development practices, ensuring scalability, maintainability, and an enhanced user experience.
+This is a complete **Kaalik 24/7 Gym Management System** developed by **Abdikhaaliq Mohamed** using **ASP.NET Core MVC** on **.NET 8**. The project helps manage operations at **Kaalik 24/7** gym, including client registration, instructors, group classes, and more. It is built using modern web development practices to ensure speed, usability, and maintainability.
 
 ## Features
 
-- **Instructor Management**: Add, edit, and delete instructor information with validation.
-- **Group Class Management**: View and manage group classes for each instructor.
-- **Error Handling**: Robust error handling for controllers.
-- **Validation**: Custom validation for the `HireDate` property.
-- **Sorting, Filtering, and Paging**: Dynamic data management features.
+- **Instructor Management**: Add, edit, and remove instructor records.
+- **Client Management**: Manage gym member profiles and membership info.
+- **Group Class Scheduling**: Organize and view group fitness sessions.
+- **Fitness Categories**: Define training programs and workout types.
+- **Email Notifications**: Send email messages to clients directly.
+- **Validation**: Built-in form validation and custom rules (e.g. `HireDate` check).
+- **Sorting, Filtering, and Paging**: Easy navigation and search for large datasets.
 - **Database Integration**:
-  - Unique constraints for data integrity.
-  - Seeded database with initial data for easy setup.
+  - Uses Entity Framework Core with SQLite.
+  - Auto-seeded sample data for quick setup.
 
 ## Technology Stack
 
 - **Framework**: ASP.NET Core MVC
 - **Language**: C#
-- **Database**: Entity Framework Core
+- **Database**: Entity Framework Core (SQLite)
 - **Version**: .NET 8
 - **IDE**: Visual Studio 2022
 
@@ -25,14 +27,13 @@ This is a comprehensive **Gym Management System** developed using **ASP.NET Core
 
 ### Prerequisites
 
-- **.NET 8 SDK** installed on your system.
-- A compatible IDE (e.g., Visual Studio 2022).
-- SQL Server or an equivalent database setup.
+- [.NET 8 SDK](https://dotnet.microsoft.com/)
+- Visual Studio 2022 or VS Code
+- SQLite (configured automatically via EF Core)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gym-management-solution.git
-
-   Ayush Adk
+   git clone https://github.com/Abdikhaaliqmohamed/kaalik-24-7.git
+   cd kaalik-24-7
