@@ -6,8 +6,8 @@ WORKDIR /app
 COPY . ./
 
 # Restore and build the application
-RUN dotnet restore
-RUN dotnet publish -c Release -o out
+RUN dotnet restore "GymManagement.csproj"
+RUN dotnet publish "GymManagement.csproj" -c Release -o out
 
 # Use the official ASP.NET Core runtime image to run the app
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
